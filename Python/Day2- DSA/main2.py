@@ -52,3 +52,16 @@ if 6 > 7:
     print("6 is greatee than 7")
 else:
     print("6 is less than 7")
+
+#Guessing-game program
+
+favourite_food = "Biryani"
+name = input("What's your favourite food?")
+
+if favourite_food == "Biryani":
+    print("Yep! so amazing")
+else:
+    print("Yuck! that's not it")
+
+print("Thanks for playing")
+
