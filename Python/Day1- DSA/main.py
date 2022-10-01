@@ -43,7 +43,7 @@ print('She said, "wow" to me')
 print("Challenge1:")
  
  #A message for user
-message = ("This is going to very tricky;")
+message = ("This is going to tricky;")
 Message = "very tricky!"
 print(message) #message to be printed
 
