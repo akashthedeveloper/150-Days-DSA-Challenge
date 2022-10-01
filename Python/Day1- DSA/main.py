@@ -22,3 +22,12 @@ print(type(email))
 3 / 2  #division
 3 // 2  #floor division or integer division which only returns integers
 3 % 2 #modulus it is remainder when deivided by some number
+
+#Strings
+print("Hello World")
+
+ #print("Let's get started') - This string statement is wrong
+print("Let's get started")
+
+#print("She said, "wow" to me") - This string statement is wrong due to not using proper double quotes with single quotes
+print('She said, "wow" to me')
