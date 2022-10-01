@@ -20,3 +20,34 @@
  # 6) Less than or equal to (<=)
 5 <= 4
 
+#Identation - Here 4 spaces or whitespace is provided in Python
+
+# If-Statement
+
+"""
+Syntax
+  if test expression:
+    statement
+
+(In if statement if the given statement is true then it is executed otherwise it is ignored. )
+"""  
+
+# eg: of if statement
+if 5<6:
+    print("Yes,5 is les than 6")
+
+# if-else statement
+"""
+Syntax
+  if condition:
+    statement 1
+  else:
+    statement 2
+""" 
+
+# eg of if-else statement
+
+if 6 > 7:
+    print("6 is greatee than 7")
+else:
+    print("6 is less than 7")
