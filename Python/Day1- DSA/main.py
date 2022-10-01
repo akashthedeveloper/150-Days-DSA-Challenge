@@ -31,3 +31,26 @@ print("Let's get started")
 
 #print("She said, "wow" to me") - This string statement is wrong due to not using proper double quotes with single quotes
 print('She said, "wow" to me')
+
+#Whitespace
+ #It is the space given in program to make it human readable and free from program errors since python requires whitespace more frequently
+
+#Comments
+  #It is is used to make every line of code understable for humans and similar to like remember list so that we understand what this code does.
+
+#Problem-1
+
+print("Challenge1:")
+ 
+ #A message for user
+message = ("This is going to very tricky;")
+Message = "very tricky!"
+print(message) #message to be printed
+
+ #Perform mathematical operations
+result = 2 ** 3
+print("2**3 =" , result) #result
+result = 5 - 3
+#print("5-3 =" , result)
+
+print("Challenge complete!")
