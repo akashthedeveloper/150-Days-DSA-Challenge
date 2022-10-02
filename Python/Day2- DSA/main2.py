@@ -65,3 +65,33 @@ else:
 
 print("Thanks for playing")
 
+# Functions - It is reusable block of code which are used to perform certain task
+
+"""
+Syntax: def function():
+            statement
+
+        function()
+
+eg: def func_name():
+          print("Hello my name is Akash")
+
+    func_name()
+"""
+# Parameter - It is variable listed inside the paranthesis of the function name
+
+# Argument - It is value that is sent to the function when the function is called.
+
+#Example of functions with Paramaters and Argument
+
+def wash_car(amount_paid): # Here amaount_paid is paramter
+    if(amount_paid == 12):
+        print("Wash with tri-color foam")
+        print("Rinse twice")
+        print("Dry with large blow dryer")
+    if(amount_paid == 6):
+        print("Wash with white foam")
+        print("Rinse once")
+        print("Air dry")
+
+wash_car(12) #Here 6 is the argument which is the value of the parameter
