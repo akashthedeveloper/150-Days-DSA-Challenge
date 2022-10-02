@@ -95,3 +95,31 @@ def wash_car(amount_paid): # Here amaount_paid is paramter
         print("Air dry")
 
 wash_car(12) #Here 6 is the argument which is the value of the parameter
+
+# Return function in python - It is statement which consist of return keyword and the value that function should return
+
+"""
+Syntax- return my_value
+"""
+#example of using return function
+
+def withdraw_amount(current_balance, amount):
+    if(current_balance >= amount):
+        current_balance =current_balance - amount
+        return current_balance
+
+    balance = withdraw_amount(180, 80)
+    
+    if (balance <= 50):
+        print("You need to deposit amount in your account")
+    else:
+        print("Everything is fine")
+
+# Prints the favourite cities
+def favourite_city(name):
+    print(" One of my favourite city is" , name)
+
+favourite_city("Mumbai")
+favourite_city("Bangalore")
+favourite_city("Himachal Pradesh")
+
