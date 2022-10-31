@@ -43,3 +43,15 @@ companies.pop()
 # count() function is used to count number of times a function ispresent in a list
 print(companies.count("Netflix"))
 
+# sort() function it is used to arrange the list in ascending order
+companies.sort()
+print(companies)
+
+# reverse() function it is used to return the list
+companies.reverse()
+print(companies)
+
+# copy() function it is used to copy the same list
+companies2 = companies.copy()
+print(companies2)
+
