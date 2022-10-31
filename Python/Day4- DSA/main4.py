@@ -13,3 +13,13 @@ print(companies[-1:])
 print(companies[:-1])
 
 print(companies[1:4]) # Here 1st index elementis is considered and 4th index element is not considered
+
+# Changing the value in the list of companies
+companies[0] = "Meta"
+print(companies[0])
+
+# Different functions in array or list
+interview_rounds = [5, 4, 6 , 3 , 7]
+companies = ["Tesla" , "Google" , "Microsoft" , "Apple" , "Netflix"]
+ 
+ #
