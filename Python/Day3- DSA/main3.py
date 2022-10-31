@@ -64,3 +64,7 @@ print(community.replace("Akash the" , "Learn"))
 my_num = 10
 print(str(my_num))
 print(str(my_num) + " is my favourite number")
+"""
+print( 10 + " is my favourite number") - This will give error since 10 integer needs to be 
+converted to string first with the help of str()
+"""
