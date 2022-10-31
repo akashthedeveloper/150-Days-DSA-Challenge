@@ -106,3 +106,13 @@ print(ceil(-59.95))
 print(ceil(301.30))
 
 print(ceil(301.75))
+
+# squrt() is the function to get the square root of the given numbers
+print(sqrt(5.9))
+print(sqrt(210.5))
+print(sqrt(9))
+
+# input() function is used to ask the input or questions from users
+
+name = input("What is your name?")
+print("Hello " + name + "!")
