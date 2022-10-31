@@ -55,3 +55,8 @@ print(companies)
 companies2 = companies.copy()
 print(companies2)
 
+# Tuples - It is similar to list but it is also having some differences from the list like tuples are immutable 
+# means once you create the tuple it can't be changed or modified so once it is created it is done.
+coordinates = (4,6)
+coordinates[1] = 14
+print(coordinates[1])
