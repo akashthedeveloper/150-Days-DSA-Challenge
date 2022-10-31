@@ -65,6 +65,44 @@ my_num = 10
 print(str(my_num))
 print(str(my_num) + " is my favourite number")
 """
-print( 10 + " is my favourite number") - This will give error since 10 integer needs to be 
-converted to string first with the help of str()
+print( 10 + " is my favourite number") - This will give error since 10 is an integer which needs to be 
+converted to string first with the help of str() function
 """
+
+# abs function - The python abs() function is used to return absolute value of a number
+my_number = -43
+print(abs(my_number))
+
+my_number1 = -14.5
+print(abs(my_number1))
+
+# The pow() function returns the value of x to the power of y (x^y).
+print(pow(2, 3))
+
+# max() and min() function is used to find out which integer value is bigger and which is smaller
+print(max(5, 50))
+
+print(min(5, 50))
+
+# round() function is used to make the decimal values and round off to closest integer
+print(round(9.4))
+
+print(round(9.8))
+
+# To use any function we had to import several functions in python
+
+from math import *
+
+# floor() it is the function where in decimal numbers the point & after number is removed 
+# and remaining number will be printed
+print(floor(9.7))
+
+print(floor(11.2))
+
+# ceil() it is the function where in decimal number the point & after number is rounded 
+# off to a greater number
+print(ceil(-59.95))
+
+print(ceil(301.30))
+
+print(ceil(301.75))
