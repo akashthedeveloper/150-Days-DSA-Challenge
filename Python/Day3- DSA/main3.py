@@ -57,3 +57,10 @@ print(community.index("Akash"))
 
 # Replace function - It is the function where an character is been replaced by other character
 print(community.replace("Akash the" , "Learn"))
+
+# Converting integer into strings we use 
+# syntax: str()
+
+my_num = 10
+print(str(my_num))
+print(str(my_num) + " is my favourite number")
