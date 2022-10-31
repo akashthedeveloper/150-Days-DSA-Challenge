@@ -53,3 +53,7 @@ print(community[6])
 
 # Index function - It is function in which if any whole number value or paramtere is given then its returns the character of that string
 print(community.index("D"))
+print(community.index("Akash"))
+
+# Replace function - It is the function where an character is been replaced by other character
+print(community.replace("Akash the" , "Learn"))
