@@ -40,3 +40,16 @@ print(community.upper())
 print(community.upper().isupper())
 print(community.lower().islower())
 print(community.lower().isupper())
+
+# Length funtion: It is used to know the number of characters there in any string
+# syntax: len()
+
+print(len(community))
+
+# To take out any character from string we use index value with [] and index value starts from 0 ton n
+
+print(community[0])
+print(community[6])
+
+# Index function - It is function in which if any whole number value or paramtere is given then its returns the character of that string
+print(community.index("D"))
