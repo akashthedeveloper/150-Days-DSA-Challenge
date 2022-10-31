@@ -21,5 +21,7 @@ print(companies[0])
 # Different functions in array or list
 interview_rounds = [5, 4, 6 , 3 , 7]
 companies = ["Tesla" , "Google" , "Microsoft" , "Apple" , "Netflix"]
- 
- #
+companies.extend(interview_rounds)
+companies.append("Amazon")
+# extend() function it extends the list to a new set of list by adding other list values
+
