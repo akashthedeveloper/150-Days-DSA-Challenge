@@ -21,7 +21,25 @@ print(companies[0])
 # Different functions in array or list
 interview_rounds = [5, 4, 6 , 3 , 7]
 companies = ["Tesla" , "Google" , "Microsoft" , "Apple" , "Netflix"]
-companies.extend(interview_rounds)
-companies.append("Amazon")
+
 # extend() function it extends the list to a new set of list by adding other list values
+companies.extend(interview_rounds)
+
+# append() function will always add the item at the end of the list
+companies.append("Amazon")
+
+# insert() function will take up 2 values first one is index value and other one the value you want to assign
+companies.insert(2 , "Oracle")
+
+# remove() function will remove the value from the list which you want to removed
+companies.remove("Netflix")
+
+# clear() function helps to remove all the values in the given list
+companies.clear()
+
+# pop() function helps to remove last value in the list
+companies.pop()
+
+# count() function is used to count number of times a function ispresent in a list
+print(companies.count("Netflix"))
 
