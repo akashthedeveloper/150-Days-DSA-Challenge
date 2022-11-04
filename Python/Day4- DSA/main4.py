@@ -1,5 +1,8 @@
 # List - It is a collection of different values like strings, number , or boolean values
 
+from turtle import pos
+
+
 companies = ["Tesla" , "Google" , "Microsoft" , "Apple" , "Netflix"]
 
 print(companies)
@@ -21,7 +24,7 @@ print(companies[0])
 # Different functions in array or list
 interview_rounds = [5, 4, 6 , 3 , 7]
 companies = ["Tesla" , "Google" , "Microsoft" , "Apple" , "Netflix"]
-
+print(companies.index("Netflix"))
 # extend() function it extends the list to a new set of list by adding other list values
 companies.extend(interview_rounds)
 
@@ -38,7 +41,8 @@ companies.remove("Netflix")
 companies.clear()
 
 # pop() function helps to remove last value in the list
-companies.pop()
+interview_rounds.pop(-1)
+
 
 # count() function is used to count number of times a function ispresent in a list
 print(companies.count("Netflix"))
@@ -57,6 +61,9 @@ print(companies2)
 
 # Tuples - It is similar to list but it is also having some differences from the list like tuples are immutable 
 # means once you create the tuple it can't be changed or modified so once it is created it is done.
+
+"""
 coordinates = (4,6)
 coordinates[1] = 14
 print(coordinates[1])
+"""
