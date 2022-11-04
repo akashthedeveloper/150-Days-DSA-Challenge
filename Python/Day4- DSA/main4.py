@@ -99,7 +99,7 @@ else:
     print("you are female")
 
 
-# other examples of elif statement
+# other examples of elif statement: Write program to print max value
 def max_num(num1 ,num2 , num3):
     if num1 >= num2 and num1 >= num3:
        return num1
