@@ -90,6 +90,12 @@ is_male = True
 is_healthy = False
 
 if is_male or is_healthy: # OR is logical operator
-    print("You are male or healthy or both")
+    print("You are male or healthy ")
+elif is_male and not(is_healthy): # elif statement
+     print("You are male and healthy")
+elif not(is_male) and is_healthy:
+    print("You are neither male nor healthy")
 else:
     print("you are female")
+
+
