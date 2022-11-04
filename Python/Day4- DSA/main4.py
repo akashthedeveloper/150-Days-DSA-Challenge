@@ -84,3 +84,12 @@ def cube(num):
     return num*num*num
 value = cube(5)
 print(value)
+
+# if-else statement with logical operators like and, or, not
+is_male = True 
+is_healthy = False
+
+if is_male or is_healthy: # OR is logical operator
+    print("You are male or healthy or both")
+else:
+    print("you are female")
