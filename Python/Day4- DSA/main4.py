@@ -47,7 +47,7 @@ interview_rounds.pop(-1)
 # count() function is used to count number of times a function ispresent in a list
 print(companies.count("Netflix"))
 
-# sort() function it is used to arrange the list in ascending order
+# sort() function it is used to arrange the list in ascending order i.e alphabetic order
 companies.sort()
 print(companies)
 
@@ -59,11 +59,28 @@ print(companies)
 companies2 = companies.copy()
 print(companies2)
 
-# Tuples - It is similar to list but it is also having some differences from the list like tuples are immutable 
-# means once you create the tuple it can't be changed or modified so once it is created it is done.
+# Tuples - It is similar to list but it is also having some differences from the list like tuples are 
+# immutable means once you create the tuple it can't be changed or modified so once it is created 
+# it is done.
 
-"""
-coordinates = (4,6)
-coordinates[1] = 14
-print(coordinates[1])
-"""
+coordinates = (4,6)  # This is tuple syntax
+print(coordinates[1]) # Here 1 is the index value
+
+# coordinates[1] = 14 will give the erroe since tuples value cannot be changed once its is define
+
+# Functions
+
+def say_hii(name , age): # defining the function
+    print("Hello " + name + ", you are " + age)
+say_hii("Akash" , "21") # calling the function
+say_hii("Harsh" , "22")
+
+ # say_hii is a function
+ # name & age are called parameters
+ # value assigned to name and age i.e Akash , Harsh, 21, 22 are called argument
+
+# Return function: It is used to get return the information back from the function
+def cube(num):
+    return num*num*num
+value = cube(5)
+print(value)
