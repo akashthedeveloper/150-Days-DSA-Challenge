@@ -44,7 +44,7 @@ companies.clear()
 interview_rounds.pop(-1)
 
 
-# count() function is used to count number of times a function ispresent in a list
+# count() function is used to count number of times a function is present in a list
 print(companies.count("Netflix"))
 
 # sort() function it is used to arrange the list in ascending order i.e alphabetic order
