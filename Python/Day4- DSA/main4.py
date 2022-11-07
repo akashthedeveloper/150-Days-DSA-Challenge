@@ -108,3 +108,7 @@ def max_num(num1 ,num2 , num3):
     else:
        return num3
 print(max_num(7,9,11))
+
+#input funtion 
+name = input("What is your name?")
+print("Hello " + name + "!")
