@@ -11,6 +11,7 @@
 ```
 
 ## Taking the Input
+
 ```cpp
    #include <iostream>
    #inlcude <string>
