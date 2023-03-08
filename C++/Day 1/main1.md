@@ -3,9 +3,9 @@
 # C++ Program - Hello World
 
 ```cpp
-int main() {
-  int y = SOME_MACRO_REFERENCE;
-  int x = 5 + 6;
-  cout << "Hello World! " << x << std::endl();
-}
+#include <iostream>   
+    int main() {
+           std::cout << "Hello, World!\n" ;
+           return 0;
+       }
 ```
