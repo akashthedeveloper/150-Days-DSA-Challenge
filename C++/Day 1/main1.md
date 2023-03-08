@@ -1,4 +1,6 @@
-# C++ Example
+# C++ is an object oriented programming languages
+
+# C++ Program - Hello World
 
 ```cpp
 int main() {
