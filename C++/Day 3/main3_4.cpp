@@ -10,7 +10,8 @@ int main() {
     char c;
     double d;
     long e;
-
+    
+    // sizeof is operator to give the size of different data types & variable in bytes
     cout << "Size of int: " << sizeof(a) << endl;
     cout << "Size of float: " << sizeof(b) << endl;
     cout << "Size of char: " << sizeof(c) << endl;
