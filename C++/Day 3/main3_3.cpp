@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
 
-    char a;
     char ch;
     cout << "Enter the character" << endl;
     cin >> ch;
