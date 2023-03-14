@@ -39,7 +39,7 @@ The ASCII value of the lowercase alphabet is from 97 to 122. And, the ASCII valu
 
 Here is the [refrence](https://en.cppreference.com/w/cpp/language/ascii) to it.
 
-### sizeof operator
+## sizeof operator
 It is the operator to determine the size of different variables and data types in bytes eg: int, char, float,etc.
 
 ```
