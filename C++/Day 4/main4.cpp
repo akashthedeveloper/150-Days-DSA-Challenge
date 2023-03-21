@@ -55,7 +55,24 @@ int main() {
     cout << (~num1) << endl;       // Bitwise Complement
     cout << (num1<<1) << endl;     // Left Shift
     cout << (num1>>1) << endl;     // Right Shift
+
+    // Miscellaneous Operator
+
+    cout << sizeof(num1) << endl; // sizeof operator
     
+
+    bool flag;
+    num1==num2?flag=true:flag=false; // ternary operator
+    cout << flag << endl;
+    
+    cout << (&num1) << endl; // address operatpr
+    
+    int a= 6;
+    cout << (a++) << endl; // post -increment operator -6
+    cout << (++a) << endl; // pre -increment operator -7
+    cout << (a--) << endl; // post -decrement operator -6
+    cout << (--a) << endl; // post -decrement operator 5
+
     return 0;
 }
     
