@@ -49,10 +49,12 @@ int main() {
 
     // Bitwise Operator
 
-    cout << (num1 & num2) << endl;
-    cout << (num1 | num2) << endl;
-    cout << (num1 ^ num2) << endl;
-    cout << (~num1) << endl;
+    cout << (num1 & num2) << endl; // Bitwise AND
+    cout << (num1 | num2) << endl; // Bitwise OR
+    cout << (num1 ^ num2) << endl; // Bitwise EX OR
+    cout << (~num1) << endl;       // Bitwise Complement
+    cout << (num1<<1) << endl;     // Left Shift
+    cout << (num1>>1) << endl;     // Right Shift
     
     return 0;
 }
