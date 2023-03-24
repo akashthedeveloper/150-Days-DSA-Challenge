@@ -67,7 +67,7 @@ int main() {
     
     cout << (&num1) << endl; // address operatpr
     
-    int a= 6;
+    int a= 5;
     cout << (a++) << endl; // post -increment operator -6
     cout << (++a) << endl; // pre -increment operator -7
     cout << (a--) << endl; // post -decrement operator -6
