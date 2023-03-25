@@ -60,7 +60,7 @@ Operator associativity, on the other hand, specifies the order in which operator
 
   1) if statement: It is used to print the statement if it is true otherwise it ignores the statement
 
-``` 
+``` C++
 Syntax: if (condition) {
            statement
         }
@@ -68,7 +68,7 @@ Syntax: if (condition) {
 
   2) if-else statement: It is used to print if statement if it is true otherwise else is executed
 
-```
+``` C++
 Syntax:  if (condition) {
             statement 1
         }
@@ -77,7 +77,19 @@ Syntax:  if (condition) {
         }
 ```
 
-  3) if-else if statement
+  3) if-else if statement:
+
+ ``` C++
+  Syntax: if(condition 1) {
+             statement 1
+          }
+          else if (condition 2) {
+             statement 2
+          }
+          else {
+             statement 3
+          }
+ ```
 
   4) switch statement
 
