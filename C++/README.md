@@ -60,22 +60,22 @@ Operator associativity, on the other hand, specifies the order in which operator
 
   1) if statement: It is used to print the statement if it is true otherwise it ignores the statement
 
-     ``` cpp
-     Syntax: if (condition) {
-                statement
-            }
-     ```
+``` 
+Syntax: if (condition) {
+           statement
+        }
+```
 
-  2) if-else statement:
+  2) if-else statement: It is used to print if statement if it is true otherwise else is executed
 
-    ```cpp
-    Syntax: if (condition) {
-                statement 1
-            }
-            else {
-                statement 2
-            }
-    ```
+```
+Syntax:  if (condition) {
+            statement 1
+        }
+        else {
+            statement 2
+        }
+```
 
   3) if-else if statement
 
