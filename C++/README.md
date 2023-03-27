@@ -122,20 +122,37 @@ Here's a table to summarize the main differences between bitwise and logical ope
 |Logical NOT (!)| NOT (!)	Inverts the truth value of an expression|	if (!condition)|
 
 
-  1) switch statement: 
+  4) switch statement: In C++, a switch statement is a control flow statement that allows you to test a variable for equality against a list of values or "cases". When a matching case value is found, the code within that case's block is executed. This is often used as an alternative to long chains of if-else-if statements.
+   
+``` C++
+    Syntax:
 
-  2) for loop
+    switch (expression) {
+      case x:
+        statement 1
+        break;
+      case y:
+        statement 2
+        break;
+      default:
+        statement 3
+    }
 
-  3) while loop
+```
+   
 
-  4) do while loop
+  5) for loop
 
-  5)  break statement
+  6) while loop
 
-  6)  continue statement
+  7) do while loop
 
-  7)  goto statement
+  8)  break statement
 
-  8)  return statement
+  9)  continue statement
 
-  9)  throw statement
+  10) goto statement
+
+  11) return statement
+
+  12) throw statement
