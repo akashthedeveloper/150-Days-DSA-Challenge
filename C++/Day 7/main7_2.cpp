@@ -1,4 +1,4 @@
-// Write a C++ program to check if students are fail , pass, just pass.
+// Write a C++ program to check if students are fail , pass, just pass. - Used of Nested if -else statement
 
 #include <iostream>
 using namespace std;

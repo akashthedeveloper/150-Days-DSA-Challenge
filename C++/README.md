@@ -106,20 +106,36 @@ Syntax:  if (condition) {
       statement 3
    }
 ```
-  5) switch statement: 
+### Common Misconception between a) Bitwise AND(&) vs Logical AND(&&) , b) Bitwise OR(|) vs Logical OR(||)
 
-  6) for loop
+In programming, bitwise and logical operators are used to manipulate the bits of variables or values. The key difference between bitwise and logical operators is that bitwise operators work on individual bits, while logical operators work on the truth value of expressions.
 
-  7) while loop
+Here's a table to summarize the main differences between bitwise and logical operators in C++:
 
-  8) do while loop
+|Operator| Function | Example |
+|:------:|:--------:|:-------:|
+|Bitwise AND (&) |Compares each bit of two values and returns a value where each bit is set to 1 only if the corresponding bits of both values are 1 | x = 5 & 3; evaluates to 1 (0101 & 0011 = 0001) |
+|Logical AND (&&)|Returns true if both operands are true |if (x > 0 && x < 10)|
+|Bitwise OR|Compares each bit of two values and returns a value where each bit is set to 1 if any of the corresponding bits of either value are 1|(x = 5 Bitwise OR 3); evaluates to 7 (0101 Bitwise OR 0011 = 0111)|
+|Logical OR |Returns true if either operand is true |	if (x == 'a' Logical OR x == 'b') |
+|Bitwise NOT (~)|Inverts the bits of a value, so each 0 becomes 1 and each 1 becomes 0|x = ~5; evaluates to -6 (~0101 = 1010 in two's complement representation; the most significant bit indicates a negative value)|
+|Logical NOT (!)| NOT (!)	Inverts the truth value of an expression|	if (!condition)|
 
-  9)  break statement
 
-  10) continue statement
+  1) switch statement: 
 
-  11) goto statement
+  2) for loop
 
-  12) return statement
+  3) while loop
 
-  13) throw statement
+  4) do while loop
+
+  5)  break statement
+
+  6)  continue statement
+
+  7)  goto statement
+
+  8)  return statement
+
+  9)  throw statement
