@@ -90,21 +90,36 @@ Syntax:  if (condition) {
              statement 3
           }
  ```
+  4) Nested if-else statement
+   
+``` C++
+   Syntax: 
+   if(condition 1) {
+      if (condition 2) {
+         statement 1
+      } 
+      else {
+         statement 2
+      }
+   }
+   else {
+      statement 3
+   }
+```
+  5) switch statement: 
 
-  4) switch statement: 
+  6) for loop
 
-  5) for loop
+  7) while loop
 
-  6) while loop
+  8) do while loop
 
-  7) do while loop
+  9)  break statement
 
-  8) break statement
+  10) continue statement
 
-  9)  continue statement
+  11) goto statement
 
-  10) goto statement
+  12) return statement
 
-  11) return statement
-
-  12) throw statement
+  13) throw statement
