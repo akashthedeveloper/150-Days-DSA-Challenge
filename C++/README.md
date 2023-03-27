@@ -77,7 +77,7 @@ Syntax:  if (condition) {
         }
 ```
 
-  3) if-else if statement:
+  3) if-else if statement: The if-else if statement is a type of control flow statement that allows you to execute different blocks of code based on different conditions. It works similarly to the if-else statement, but with multiple conditions.
 
  ``` C++
   Syntax: if(condition 1) {
@@ -91,7 +91,7 @@ Syntax:  if (condition) {
           }
  ```
 
-  4) switch statement
+  4) switch statement: 
 
   5) for loop
 
