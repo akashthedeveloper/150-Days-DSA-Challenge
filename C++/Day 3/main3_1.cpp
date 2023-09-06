@@ -1,4 +1,4 @@
-// Write aprogram to print the area of rectangle
+// Write a program to print the area of rectangle
 
 #include <iostream>
 using namespace std;

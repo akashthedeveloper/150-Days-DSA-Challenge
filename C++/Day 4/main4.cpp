@@ -65,7 +65,7 @@ int main() {
     num1==num2?flag=true:flag=false; // ternary operator
     cout << flag << endl;
     
-    cout << (&num1) << endl; // address operatpr
+    cout << (&num1) << endl; // address operator
     
     int a= 5;
     cout << (a++) << endl; // post -increment operator -6
