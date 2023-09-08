@@ -31,7 +31,7 @@ int main()
 */
 
 // Write a C++ program to print the size of different data types
-
+/*
 #include <iostream>
 using namespace std;
 
@@ -53,4 +53,25 @@ int main()
     cout << "size of bool is " << sizeof(f) <<endl;
 
 return 0;
+}
+
+a+=1 : a = a+1
+a-=1 : a = a-1
+a*=2 : a= a*2
+a/=2 : a = a/2
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    string name;
+
+    cout << "Enter your name:" << endl;
+
+    cin >> name;
+
+    cout << "Nice to meet you, " << name << endl;
+
+    return 0;
 }
