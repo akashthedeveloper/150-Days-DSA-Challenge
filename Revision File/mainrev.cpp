@@ -61,6 +61,7 @@ a*=2 : a= a*2
 a/=2 : a = a/2
 */
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -72,6 +73,55 @@ int main(){
     cin >> name;
 
     cout << "Nice to meet you, " << name << endl;
+
+    return 0;
+}
+
+*/
+
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World\n";
+    return 0;
+}
+*/
+
+
+
+// Write a program to take the input from the user
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout <<  "Enter your age\n";
+    cin >> num;
+
+    cout << " Your age is " << num ;
+
+    return 0;
+}
+*/
+
+// Write a C++ program to print output using Bitwise Operator: num1= 5(0101) & num2 = 8(1000)
+
+#include <iostream>
+using namespace std;
+int main(){
+    int num1 = 5;
+    int num2 = 8;
+
+    cout << (num1 <<1) << endl; // Left Shift Operator
+    cout << (num1 >>2) << endl; // Right Shift Operator
+
+    cout << (num1 & num2) << endl;
+    cout << (num1 | num2) << endl;
+    cout << (num1 ^ num2) << endl;
+    cout << (~num1) << endl;
 
     return 0;
 }
