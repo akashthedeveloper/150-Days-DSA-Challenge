@@ -108,7 +108,7 @@ int main()
 */
 
 // Write a C++ program to print output using Bitwise Operator: num1= 5(0101) & num2 = 8(1000)
-
+/*
 #include <iostream>
 using namespace std;
 int main(){
@@ -125,3 +125,58 @@ int main(){
 
     return 0;
 }
+*/
+
+// Write a C++ program to calculate the sum of first and second last digit of a 5-digit number
+
+// number: 12345, first num =1, second last digit = 4
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    
+    cout << "Enter a 5-digit number: ";
+    cin >> number;
+    
+    // Extracting the first and second last digits
+    int firstDigit = (number / 10000) % 10;
+    int secondLastDigit = (number / 10) % 10;
+    
+    // Calculating the sum
+    int sum = firstDigit + secondLastDigit;
+    
+    cout << "The sum of the first and second last digits is: " << sum << endl;
+    
+    return 0;
+}
+*/
+
+// Write a program to print the output of sum of 3 digit number
+
+#include <iostream>
+int main() {
+    int number;
+    std::cout << "Enter a three-digit number: ";
+    std::cin >> number;
+
+    // Check if the number is a three-digit number
+    if (number < 100 || number > 999) {
+        std::cout << "Please enter a valid three-digit number." << std::endl;
+        return 0;
+    }
+
+    // Extract digits and calculate the sum
+    int digit1 = number / 100;
+    int digit2 = (number / 10) % 10;
+    int digit3 = number % 10;
+
+    int sum = digit1 + digit2 + digit3;
+
+    std::cout << "Sum of the digits: " << sum << std::endl;
+
+    return 0;
+}
+
+
