@@ -154,7 +154,7 @@ int main() {
 */
 
 // Write a program to print the output of sum of 3 digit number
-
+/*
 #include <iostream>
 int main() {
     int number;
@@ -178,5 +178,37 @@ int main() {
 
     return 0;
 }
+*/
 
+// Write a program to print the output of Hello World
 
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World!\n";
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World\n";
+    return 0;
+}
+*/
+
+// Write a C++ program to take input of age from user
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int age;
+    cout << "Enter your age:\n";
+    cin>>age;
+    cout << "You are " << age << " yrs old\n";
+    return 0;
+}
