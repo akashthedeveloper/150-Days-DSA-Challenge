@@ -202,13 +202,25 @@ int main()
 
 // Write a C++ program to take input of age from user
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int age;
+//     cout << "Enter your age:\n";
+//     cin>>age;
+//     cout << "You are " << age << " yrs old\n";
+//     return 0;
+// }
+
+// Write a C++ program to print Namaste Duniya
+
 #include <iostream>
 using namespace std;
 int main()
 {
-    int age;
-    cout << "Enter your age:\n";
-    cin>>age;
-    cout << "You are " << age << " yrs old\n";
+    cout << "Namaste Duniya\n";
     return 0;
 }
+
+
