@@ -215,12 +215,32 @@ int main()
 
 // Write a C++ program to print Namaste Duniya
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     cout << "Namaste Duniya\n";
+//     return 0;
+// }
+
+// write a C++ program to print different data types and its size
+
 #include <iostream>
 using namespace std;
-int main()
-{
-    cout << "Namaste Duniya\n";
+
+int main(){
+
+    int a= 5;
+    float b = 5.5;
+    char c = 'a'; // char should only one character if its is more than one character like ab or something else it will give error.
+    double d = 5.5;
+    string e = "Hello";
+    bool f = true;
+    cout << "size of int is " << sizeof(a) << endl;
+    cout << "size of float is " << sizeof(b) << endl;
+    cout << "size of char is " << sizeof(c) << endl;
+    cout << "size of double is " << sizeof(d) << endl;
+    cout << "size of string is " << sizeof(e) << endl;
+    cout << "size of bool is " << sizeof(f) << endl;
     return 0;
 }
-
-
