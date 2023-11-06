@@ -243,14 +243,20 @@ int main(){
     // cout << "size of string is " << sizeof(e) << endl;
     // cout << "size of bool is " << sizeof(f) << endl;
 
-    int a = 'a';
-    cout << a << endl;
+    int a1 = 'a';
+    cout << a1 << endl;
 
-    char ch = 98;
-    cout << ch << endl;
-
-    char ch1 = 123456;
+    char ch1 = 98;
     cout << ch1 << endl;
+
+    char ch2 = 123456;
+    cout << ch2 << endl;
+
+    unsigned int a2 = 112;
+    cout << a2 << endl;
+    
+    unsigned int a3 = -112;
+    cout << a3 << endl;
 
     return 0;
 }
