@@ -278,22 +278,36 @@ int main(){
     //     cout << "The number is negative or zero" << endl;
     // }
 
-    int a,b;
+    // int a,b;
 
-    cout << "Enter the value of a:" << endl;
+    // cout << "Enter the value of a:" << endl;
 
-    cin >> a;
+    // cin >> a;
 
-    cout << "Enter the value of b:" << endl;
+    // cout << "Enter the value of b:" << endl;
 
-    cin >> b;
+    // cin >> b;
 
-    if(a>b){
-        cout << "a is greater" << endl;
-    }
-    else{
-        cout << "b is greater" << endl;
-    }
+    // if(a>b){
+    //     cout << "a is greater" << endl;
+    // }
+    // else{
+    //     cout << "b is greater" << endl;
+    // }
+
+    int  num;
+     cout << "Enter the number:\n" ;
+     cin >> num;
+
+     if (num>0){
+         cout << "The number is positive" << endl;
+     }
+     else if(num=0){
+         cout << "The number is zero" << endl;
+     }
+     else {
+        cout << "The number is negative" << endl;
+     }
 
     return 0;
 }
