@@ -243,20 +243,33 @@ int main(){
     // cout << "size of string is " << sizeof(e) << endl;
     // cout << "size of bool is " << sizeof(f) << endl;
 
-    int a1 = 'a';
-    cout << a1 << endl;
+    // int a1 = 'a';
+    // cout << a1 << endl;
 
-    char ch1 = 98;
-    cout << ch1 << endl;
+    // char ch1 = 98;
+    // cout << ch1 << endl;
 
-    char ch2 = 123456;
-    cout << ch2 << endl;
+    // char ch2 = 123456;
+    // cout << ch2 << endl;
 
-    unsigned int a2 = 112;
-    cout << a2 << endl;
+    // unsigned int a2 = 112; // unsigned is used to store positive values
+    // cout << a2 << endl;
     
-    unsigned int a3 = -112;
-    cout << a3 << endl;
+    // unsigned int a3 = -112;
+    // cout << a3 << endl;
+
+    // int a4= 2.0/5;
+    // cout << a4 << endl; // here the output will be integer since data type is int
+
+    // cout << 2.0/5 << endl; // here the output will be 0.4 since the data type is not specified
+
+    // float a4=2.0/5;
+    // cout << a4 << endl;
+
+    int n;
+    cin>>n;
+
+    cout << "The output of n is: " << n << endl;
 
     return 0;
 }
