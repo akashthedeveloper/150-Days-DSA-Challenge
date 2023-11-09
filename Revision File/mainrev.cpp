@@ -266,10 +266,35 @@ int main(){
     // float a4=2.0/5;
     // cout << a4 << endl;
 
-    int n;
-    cin>>n;
+    // int n;
+    // cin>>n;
 
-    cout << "The output of n is: " << n << endl;
+    // cout << "The output of n is: " << n << endl;
+
+    // if(n>0){
+    //     cout << "The number is positive" << endl;
+    // }
+    // else{
+    //     cout << "The number is negative or zero" << endl;
+    // }
+
+    int a,b;
+
+    cout << "Enter the value of a:" << endl;
+
+    cin >> a;
+
+    cout << "Enter the value of b:" << endl;
+
+    cin >> b;
+
+    if(a>b){
+        cout << "a is greater" << endl;
+    }
+    else{
+        cout << "b is greater" << endl;
+    }
 
     return 0;
 }
+   
