@@ -327,23 +327,6 @@
 
 // Write a program to take a character and print "lowercase" if character is between a-z, "uppercase' if between A-z and "numeric" if between 0-9 using else-if statement
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     char a;
-//     cin>>a;
-//     if (a >= 'a' && a <= 'z'){
-//         cout << "This is lowercase character\n"; 
-//     }
-//     else if(a>= 'A' && a <= 'Z'){
-//         cout << "This is uppercase character\n";
-//     }
-//     else if(a >= '0' && a <= '9');{
-//         cout << "This is a numeric\n";   
-//     }
-//     return 0;
-// }
-
   #include <iostream>
   using namespace std;
 
@@ -354,16 +337,16 @@
     cin >> ch;
 
     if (ch >= 'a' && ch <= 'z') {
-      cout << "\n lowercase";  
+      cout << "lowercase";  
     }  
     else if (ch >= 'A' && ch <= 'Z') {
-      cout << "\n uppercase";
+      cout << "uppercase";
     }   
     else if (ch >= '0' && ch <= '9') {
-      cout << "\n numeric";
+      cout << "numeric";
     }  
     else {
-      cout << "\n Invalid character";   
+      cout << "Invalid character";   
     }
 
     return 0;
