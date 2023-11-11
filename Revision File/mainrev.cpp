@@ -325,7 +325,7 @@
 //     return 0;
 // }
 
-// Write a program to take a character and print "lowercase" if character is between a-z, "uppercase' if between A-z and "numeric" if between 0-9 using else-if statement
+// Write a program to take a character and print "lowercase" if character is between a-z, "uppercase' if between A-Z and "numeric" if between 0-9 using else-if statement
 
   #include <iostream>
   using namespace std;
@@ -348,6 +348,5 @@
     else {
       cout << "Invalid character";   
     }
-
     return 0;
-}
+} 

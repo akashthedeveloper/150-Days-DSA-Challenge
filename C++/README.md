@@ -106,6 +106,34 @@ Syntax:  if (condition) {
       statement 3
    }
 ```
+
+#### Write a C++ program to take a character and print "lowercase" if character is between a-z, "uppercase' if between A-Z and "numeric" if between 0-9 using else-if statement
+```
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+    char ch;
+
+    cout << "Enter a character: ";
+    cin >> ch;
+
+    if (ch >= 'a' && ch <= 'z') {
+      cout << "lowercase";  
+    }  
+    else if (ch >= 'A' && ch <= 'Z') {
+      cout << "uppercase";
+    }   
+    else if (ch >= '0' && ch <= '9') {
+      cout << "numeric";
+    }  
+    else {
+      cout << "Invalid character";   
+    }
+    return 0;
+}
+```
+
 ### Common Misconception between a) Bitwise AND(&) vs Logical AND(&&) , b) Bitwise OR(|) vs Logical OR(||)
 
 In programming, bitwise and logical operators are used to manipulate the bits of variables or values. The key difference between bitwise and logical operators is that bitwise operators work on individual bits, while logical operators work on the truth value of expressions.
