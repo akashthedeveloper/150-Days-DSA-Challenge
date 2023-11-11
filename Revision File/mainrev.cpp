@@ -327,26 +327,115 @@
 
 // Write a program to take a character and print "lowercase" if character is between a-z, "uppercase' if between A-Z and "numeric" if between 0-9 using else-if statement
 
-  #include <iostream>
-  using namespace std;
+//   #include <iostream>
+//   using namespace std;
 
-  int main() {
-    char ch;
+//   int main() {
+//     char ch;
 
-    cout << "Enter a character: ";
-    cin >> ch;
+//     cout << "Enter a character: ";
+//     cin >> ch;
 
-    if (ch >= 'a' && ch <= 'z') {
-      cout << "lowercase";  
-    }  
-    else if (ch >= 'A' && ch <= 'Z') {
-      cout << "uppercase";
-    }   
-    else if (ch >= '0' && ch <= '9') {
-      cout << "numeric";
-    }  
-    else {
-      cout << "Invalid character";   
+//     if (ch >= 'a' && ch <= 'z') {
+//       cout << "lowercase";  
+//     }  
+//     else if (ch >= 'A' && ch <= 'Z') {
+//       cout << "uppercase";
+//     }   
+//     else if (ch >= '0' && ch <= '9') {
+//       cout << "numeric";
+//     }  
+//     else {
+//       cout << "Invalid character";   
+//     }
+//     return 0;
+// } 
+
+// Write a C+ program to print a number from 1 to n.
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+
+//   int n;
+//   cin >> n;
+
+//   int i = 1;
+
+//   while(i<=n) {
+//     cout << i << endl;
+//     i=i+1;
+//   }
+//   return 0;
+// }
+
+// Write a program to print sum from 1 to n
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+
+//    int n;
+//    cin>>n;
+
+//    int i= 1;
+//    int sum = 0;
+
+//    while(i<=n){
+
+//     sum = sum + i;
+//     i = i+1;
+//     cout << sum << endl;
+//    }
+//   return 0;
+// }
+
+
+// Write a program to print sum of all even number from 1 to n.
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+  int n,sum=0;
+	cin >> n;
+  int i = 1;  
+  while (i <= n) {
+    if (i % 2 == 0) {
+      sum += i; // sum = sum + i
     }
-    return 0;
-} 
+    i = i + 1;
+}
+  cout << sum << endl;
+  return 0;
+}
+*/
+
+// Write a program to convert Fahrenheit to degree celsius
+ 
+/*
+#include <iostream>
+using namespace std;
+int main(){
+  float fahrenheit,celsius;
+  cout<<"Enter temperature in Fahrenheit: ";
+  cin>>fahrenheit;
+  celsius = (fahrenheit - 32) * 5 / 9;
+  cout<<"Temperature in Celsius: "<<celsius<<endl;
+  return 0;
+}
+*/
+
+// Write a program to print if a number is prime or not
+
+#include <iostream>
+using namespace std;
+int main(){
+   
+   int n;
+   cin >> n;
+}
+
+
+
