@@ -26,7 +26,7 @@ int main() {
         cout << endl;
         
         row++;
-        start += n;
+        start += n; // 
     }
     
     return 0;
