@@ -26,7 +26,7 @@ int main() {
         cout << endl;
         
         row++;
-        start += n; // 
+        start += n; // Its used to get into next row start = start + 3(n)
     }
     
     return 0;
