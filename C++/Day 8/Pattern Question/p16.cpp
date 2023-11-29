@@ -19,10 +19,10 @@ int main(){
         while(col <=row){
             cout<<value<<" ";
             value = value + 1;
-            col = col + 1;
+            col++;
         }
         cout<<endl;
-        row = row + 1;
+        row++;
     }
     return 0;
 }
