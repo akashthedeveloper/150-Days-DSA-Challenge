@@ -25,7 +25,7 @@ int main(){
         // star print
         int col =1;
         while(col<=row){
-            cout << "*" << "";
+            cout << "*";
             col++;
         }
         cout << endl;
