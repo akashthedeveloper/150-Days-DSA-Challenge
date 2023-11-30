@@ -11,9 +11,7 @@ int main(){
 
     int n;
     cin >> n;
-    if (n == 1) {
-        cout << "*";
-    }
+    
     int row = 1;
     while (row <= n) {
         int col = 1;
