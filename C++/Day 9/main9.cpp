@@ -20,10 +20,10 @@ int main(){
     cout <<  (19<<1) << endl;
     cout <<  (21<<2) << endl;
 
-    int i =7;
+    int i = 7;
 
-    cout << (i++) << endl; // value = 7, i -8
-    cout << (++i) << endl; // Now i=8 - value =8, i =9
+    cout << (++i) << endl; // value = 7, i -8
+    cout << (i++) << endl; // Now i=8 - value =8, i =9
     cout << (i--) << endl; // Now i=9 - value =9, i =8
     cout << (--i) << endl; // Now i=8 - value =7, i =7
 
