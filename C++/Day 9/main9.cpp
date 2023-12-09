@@ -22,11 +22,10 @@ int main(){
 
     int i = 7;
 
-    cout << (++i) << endl; // value = 7, i -8
+    cout << (++i) << endl; // value = 8, i -8
     cout << (i++) << endl; // Now i=8 - value =8, i =9
     cout << (i--) << endl; // Now i=9 - value =9, i =8
     cout << (--i) << endl; // Now i=8 - value =7, i =7
-
 
     return 0;
 }
