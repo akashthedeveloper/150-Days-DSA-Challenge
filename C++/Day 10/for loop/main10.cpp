@@ -10,7 +10,7 @@ int main() {
     // a = c; // ASCII value of b will be stored
 
     c = a;
-
+  
     cout << c << endl;
     return 0;
 
