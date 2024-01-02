@@ -27,5 +27,8 @@ int main(){
     else if(n==7){
         cout << "Sunday"<<endl;
     }
+    else{
+        cout << "Not valid"<<endl;
+    }
     return 0;
 }
