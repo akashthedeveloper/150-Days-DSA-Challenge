@@ -12,7 +12,7 @@ int main(){
     num = n; // Initialize num with the value of n
 
     for(int i=1; i<power; i++){ // Loop starts from 1 and goes up to the power specified by the user
-        num = num * n; // In each iteration, num is multiplied by n
+        num = num * n; // In each iteration, num is multiplied by n 
     }
     cout<<num<<endl; // Print the result
     return 0;
