@@ -42,7 +42,7 @@ int main() {
     int result = findNthFibonacci(n);
 
     // Output: Display the result
-    cout << "The " << n << "th Fibonacci number is: " << result << std::endl;
+    cout << "The " << n << "th Fibonacci number is: " << result << endl;
 
     return 0;
 }
